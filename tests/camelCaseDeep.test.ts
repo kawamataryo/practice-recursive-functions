@@ -22,6 +22,9 @@ describe("camelCaseDeep", () => {
             first_city: "mito",
             second_city: "hitachinaka",
             array: [2, 3, 4],
+            object_object: {
+              obj_obj: "hoge",
+            },
           },
         },
       };
@@ -34,6 +37,9 @@ describe("camelCaseDeep", () => {
             firstCity: "mito",
             secondCity: "hitachinaka",
             array: [2, 3, 4],
+            objectObject: {
+              objObj: "hoge",
+            },
           },
         },
       });
