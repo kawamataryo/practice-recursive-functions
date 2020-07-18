@@ -3,7 +3,7 @@ export const fibonacci = (n: number, memo: number[] = []): number => {
     return n;
   }
   if (memo[n]) {
-    return memo[n]
+    return memo[n];
   }
-  return memo[n] = fibonacci(n - 1, memo) + fibonacci(n - 2, memo);
+  return (memo[n] = fibonacci(n - 1, memo) + fibonacci(n - 2, memo));
 };
